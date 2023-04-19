@@ -1,0 +1,11 @@
+
+import java.util.*;
+public class javabasics{
+    public static void main(String[] args) {
+       Scanner sc = new Scanner (System.in);
+       Double w = sc.nextDouble();
+       Double h = sc.nextDouble();
+       Double perimeter =2*(w+h);
+       System.out.println(perimeter);
+    }
+}

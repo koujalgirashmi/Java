@@ -1,0 +1,10 @@
+
+import java.util.*;
+public class javabasics{
+    public static void main(String[] args) {
+       Scanner sc = new Scanner (System.in);
+       Double r = sc.nextDouble();
+       Double area = 2*3.14*r;
+       System.out.println(area);
+    }
+}

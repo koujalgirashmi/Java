@@ -1,0 +1,11 @@
+/* total surface area of cylinder*/
+import java.util.*;
+public class javabasics{
+    public static void main(String[] args) {
+       Scanner sc = new Scanner (System.in);
+       Double r = sc.nextDouble();
+       Double h = sc.nextDouble();
+       Double perimeter = (2*3.14*r*h)(2*3.14*r*r);
+       System.out.println(perimeter);
+    }
+}

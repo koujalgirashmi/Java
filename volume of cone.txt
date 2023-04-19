@@ -1,0 +1,11 @@
+/* volume of cone */
+import java.util.*;
+public class javabasics{
+    public static void main(String[] args) {
+       Scanner sc = new Scanner (System.in);
+       Double r = sc.nextDouble();
+       Double h = sc.nextDouble();
+       Double perimeter = (3.14*r*r*h)/3;
+       System.out.println(perimeter);
+    }
+}

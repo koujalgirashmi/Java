@@ -1,0 +1,11 @@
+/* curved surface area of cube */
+import java.util.*;
+public class javabasics{
+    public static void main(String[] args) {
+       Scanner sc = new Scanner (System.in);
+       Double a = sc.nextDouble();
+       
+       Double csarae = (6*a*a);
+       System.out.println(csarea);
+    }
+}
